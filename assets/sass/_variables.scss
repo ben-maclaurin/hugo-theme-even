@@ -200,7 +200,7 @@ $content-table-border-color: darken($deputy-color, 3%) !default;
 
 // ========== Code ========== //
 // Color of the code.
-$code-color: #c7254e !default;
+$code-color: #fff !default;
 
 // Font size of code.
 $code-font-size: 1em !default;
@@ -211,14 +211,14 @@ $code-font-family: Iosevka, Monaco, Menlo, "DejaVu Sans Mono",
 
 // Color of code highlight, solarized.
 $code-highlight-color: (
-  comment: #93a1a1,
-  keyword: #859900,
-  number: #2aa198,
-  title: #268bd2,
-  attribute: #b58900,
-  symbol: #cb4b16,
-  built_in: #dc322f,
-  formula: #eee8d5
+  comment: #a65f6a,
+  keyword: #6052cf,
+  number: #202020,
+  title: #cf25aa,
+  attribute: #1f77bb,
+  symbol: #065fff,
+  built_in: #ba35af,
+  formula: #202020
 ) !default;
 
 // Code type list.
