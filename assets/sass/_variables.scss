@@ -104,6 +104,12 @@ $header-padding: 20px 20px !default;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'IBM';
+  src: url('../fonts/IBMPlexMono-Regular.ttf');
+  font-style: normal;
+}
+
 // Font size of the logo.
 $logo-font-size: 48px !default;
 
@@ -206,7 +212,7 @@ $code-color: #c7254e !default;
 $code-font-size: 1em !default;
 
 // Font family of the code.
-$code-font-family: Iosevka, Monaco, Menlo, "DejaVu Sans Mono",
+$code-font-family: IBM, Monaco, Menlo, "DejaVu Sans Mono",
  "Bitstream Vera Sans Mono", "Courier New", monospace !default;
 
 // Color of code highlight, solarized.
