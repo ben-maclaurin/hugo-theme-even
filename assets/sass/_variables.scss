@@ -2,6 +2,15 @@
 // Variables
 // ==============================
 
+
+* {
+    scrollbar-width: none !important;  /* Firefox */
+}
+
+*::-webkit-scrollbar { 
+    display: none !important;  /* Safari and Chrome */
+}
+
 // ========== Theme Color ========== //
 // Config here to change theme color
 // Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
